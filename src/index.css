@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Prompt', 'Inter', system-ui, -apple-system, sans-serif;
+    background-color: #F4F6F9;
+    color: #1E293B;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Printable / High-res Canvas Capture Tweaks */
+.bmc-export-container {
+  background-color: #FFFFFF;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.sticky-note-yellow {
+  background-color: #FEF9C3;
+  border-left: 4px solid #EAB308;
+  color: #713F12;
+}
+
+.sticky-note-blue {
+  background-color: #E0F2FE;
+  border-left: 4px solid #0284C7;
+  color: #075985;
+}
+
+.sticky-note-green {
+  background-color: #DCFCE7;
+  border-left: 4px solid #16A34A;
+  color: #14532D;
+}
+
+.sticky-note-purple {
+  background-color: #F3E8FF;
+  border-left: 4px solid #9333EA;
+  color: #581C87;
+}
+
+.sticky-note-gold {
+  background-color: #FEF3C7;
+  border-left: 4px solid #D97706;
+  color: #78350F;
+}
+
+.sticky-note-teal {
+  background-color: #CCFBF1;
+  border-left: 4px solid #0D9488;
+  color: #115E59;
+}
